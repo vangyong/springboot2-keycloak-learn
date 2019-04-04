@@ -1,4 +1,4 @@
-package com.example.productapp;
+package cn.segema.test.keycloak;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class ProductAppApplication {
+public class TestProject1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductAppApplication.class, args);
+		SpringApplication.run(TestProject1Application.class, args);
 	}
 }
 
